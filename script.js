@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.cardx');
 
 let hasFlippedCard = false;
 let firstCard, secondCard;
@@ -52,6 +52,17 @@ function unflipCards() {
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
+}
+
+function shuffle() {
+    cards.forEach((card)=>{
+        let randomPosition = Math.floor(Math.random() * 12);
+        card.style.order = randomPosition;        
+    })
+};
+
+function reload() {
+    document.location.reload(true);
 }
 
 cards.forEach((card)=>{

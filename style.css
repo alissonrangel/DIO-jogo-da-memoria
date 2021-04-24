@@ -6,7 +6,6 @@
 
 body{
     height: 100vh;
-    display: flex;
     background-color: rgb(54, 189, 189);
 }
 
@@ -20,7 +19,7 @@ body{
 }
 
 /* div que engloba as duas imagens, frente e verso */
-.card{
+.cardx{
     height: calc(33.333% - 10px);
     width: calc(25% - 10px);
     margin: 5px;
@@ -32,7 +31,7 @@ body{
     transition: transform .9s;
 }
 
-.card:active{
+.cardx:active{
     transform: scale(0.9);
     transition: transform .3s;
 }
@@ -53,6 +52,12 @@ body{
 }
 
 /* flip card animation */
-.card.flip{
+.cardx.flip{
     transform: rotateY(180deg);
+}
+
+.video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
