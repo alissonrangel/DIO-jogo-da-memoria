@@ -3,4 +3,4 @@
 * Adição de vídeo de fundo do jogo Mario Kart
 * Adição de botão de reinício
 
-![alt text](https://github.com/alissonrangel/DIO-jogo-da-memoria/blob/main/app/assets/images/memoria.png?raw=true)
+![alt text](https://github.com/alissonrangel/DIO-jogo-da-memoria/blob/main/img/memoria.png?raw=true)
